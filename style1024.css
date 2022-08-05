@@ -1,0 +1,480 @@
+@media(max-width: 1460px) {
+  body {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 984px;
+  }
+
+  .header {
+    height: 130px;
+  }
+
+  .header-navigation {
+    display: none;
+  }
+
+  .menu-burger-button {
+    display: block;
+    width: 32px;
+    height: 18px;
+    background-image: url(./assets/svg/menu-open.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+
+  .close-button {
+    width: 25px;
+    height: 25px;
+    background-image: url(./assets/svg/menu-close.svg);
+  }
+
+  .menu-burger-button:hover {
+    filter: invert(60%) sepia(5%) saturate(2625%) hue-rotate(356deg) brightness(89%) contrast(78%);
+  }
+
+  .welcome-container {
+    position: relative;
+    min-height: 585px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .welcome-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 50px;
+  }
+
+  .welcome-paragraph {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .welcome-button {
+    width: 300px;
+    height: 60px;
+    padding: 15px 45px;
+    margin-top: 45px;
+    font-size: 20px;
+  }
+
+  .burger-menu {
+    position: absolute;
+    top: 0;
+    left: -200%;
+    z-index: 100;
+    display: block;
+    width: 290px;
+    height: 585px;
+    transition: all 0.3s ease-in;
+  }
+  
+  .open {
+    left: 0;
+  }
+
+  .menu-images {
+    display: none;
+  }
+
+  .burger-menu-navigation-links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+  }
+
+  .burger-menu-navigation-links li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 9px;
+  }
+
+  .burger-menu-navigation-links li:after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: 110px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(./assets/svg/burger-arrow.svg);
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .burger-link {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+  }
+
+  .burger-link:hover .burger-menu-navigation-links li:after {
+    filter: invert(60%) sepia(5%) saturate(2625%) hue-rotate(356deg) brightness(89%) contrast(78%);
+  }
+
+  .burger-link:hover {
+    color: #9d8665;
+  }
+
+  .welcome-slider {
+    min-height: 585px;
+  }
+
+  .welcome-slider-content {
+    width: 700px;
+    height: 525px;
+  }
+  
+  .welcome-slider-gradient {
+    width: 300px;
+    height: 525px;
+  }
+
+  .welcome-slider-menu {
+    width: 700px;
+  }
+
+  .welcome-slider-menu-content {
+    margin-left: 150px
+  }
+
+  .slide-number {
+    font-size: 20px;
+  }
+
+  .first-slide-number {
+    font-size: 20px;
+  }
+
+  .slide-number-wrapper {
+    padding-right: 45px;
+  }
+
+  .slider-square {
+    width: 12px;
+    height: 12px;
+    margin-left: 25px;
+  }
+  
+  .slider-square:last-child {
+    margin-right: 25px;
+  }
+
+  .section-title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 75px;
+  }
+
+  .section-title::after {
+    top: 95px;
+  }
+
+  .visiting-container {
+    padding-bottom: 60px;
+  }
+
+  .card-wrapper {
+    justify-content: center;
+    margin-top: 85px;
+    column-gap: 108px;
+    row-gap: 60px;
+  }
+
+  .card-image {
+    width: 330px;
+    height: 215px;
+  }
+
+  .card-title {
+    margin-top: 5px;
+    margin-bottom: 22px;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 3px;
+  }
+
+  .card-title::after {
+    width: 46%;
+    height: 2px;
+  }
+
+  .card-additional {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0;
+  }
+  
+  .card-source {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0;
+  }
+
+  .explore {
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+  
+  .explore-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+  .explore-text-wrapper {
+    margin-top: 85px;
+  }
+
+  .explore-text {
+    margin: 1px 0;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .explore-text:last-child {
+    display: none;
+  }
+
+  .explore-img {
+    margin-top: 62px;
+    margin-left: 0;
+  }
+
+  .video-container {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .video-title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    line-height: 75px;
+  }
+
+  .video-text {
+    display: none;
+  }
+
+  .videopleer {
+    display: block;
+    width: 984px;
+    height: 444px;
+  }
+
+  .video-button {
+    width: 152px;
+    height: 152px;
+  }
+
+  .control-panel {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .play {
+    width: 23px;
+    height: 30px;
+  }
+
+  .volume {
+    width: 26px;
+    height: 20px;
+  }
+
+  .fullscreen {
+    width: 26px;
+    height: 26px;
+  }
+
+  .progress {
+    height: 5px;
+  }
+
+  .progress::-webkit-slider-thumb {
+    width: 13px;
+    height: 13px;
+  }
+
+  .progress-big {
+    width: 564px;
+  }
+  
+  .progress-small {
+    width: 143px;
+  }
+
+  .video-slider {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .video-slider iframe {
+    width: 300px;
+    height: 170px;
+  }
+  
+  .picture-container {
+    padding-top: 60px;
+    height: 1400px;
+  }
+
+  .gallery-title {
+    margin-bottom: 60px;
+    font-size: 50px;
+    line-height: 75px;
+  }
+
+  .picture-inner-container {
+    height: 2070px;
+  }
+
+  .gallery-img {
+    width: 304px;
+    max-height: 380px;
+  }
+
+  .tickets-wrapper {
+    margin-top: 83px;
+    margin-bottom: 60px;
+  }
+
+  .tickets-img {
+    width: 700px;
+    height: 440px;
+  }
+
+  .tickets-img img{
+    margin-top: -55px;
+    margin-right: -20px;
+  }
+
+  .tickets-count {
+    width: auto;
+  }
+
+  .tickets-type {
+    display: none;
+  }
+
+  .tickets-amount {
+    align-items: flex-start;
+    row-gap: 0;
+    width: 175px;
+    margin-right: 29px;
+  }
+
+  .bottom {
+    margin-bottom: 30px;
+  }
+
+  .tickets-counter {
+    row-gap: 8px;
+    width: 175px;
+    margin-bottom: 30px;
+  }
+
+  .tickets-counter-wrapper {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .tickets-counter-btn {
+    padding: 0;
+  }
+  
+  .tickets-counter .number {
+    margin-left: 0;
+  }
+
+  .total-euro {
+    margin: 0 0 60px;
+  }
+
+  .parallax {
+    background-position: 50%;
+  }
+  
+  .contacts-section {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .contacts-wrapper {
+    margin-top: 83px;
+  }
+
+  .contacts-map {
+    width: 694px;
+    height: 454px;
+  }
+
+  .contacts-map img {
+    margin-left: -270px;
+  }
+
+  .contacts-text {
+    row-gap: 22px;
+  }
+
+  .contacts-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  .contacts-details {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0;
+  }
+
+  .footer-container {
+    padding-top: 60px;
+    padding-bottom: 35px;
+  }
+
+  .footer-logo {
+    margin-top: 0;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .footer-info {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form {
+    width: 1024px;
+    height: 768px;
+    padding: 75px 27px 30px;
+  }
+}

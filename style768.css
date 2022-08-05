@@ -1,0 +1,431 @@
+@media(max-width: 990px) {
+  .container {
+    width: 728px;
+  }
+
+  .header {
+    height: 110px;
+  }
+
+  .welcome-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 864px;
+  }
+
+  .welcome-content {
+    position: static;
+  }
+
+  .welcome-slider {
+    position: static;
+  }
+
+  .welcome-slider-content {
+    position: static;
+    width: 100%;
+    height: 546px;
+  }
+
+  .welcome-slider-menu {
+    position: static;
+    width: 100%;
+    height: 100px;
+  }
+
+  .welcome-slider-menu-content {
+    margin-left: 0px;
+  }
+
+  .welcome-title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-top: 0;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .welcome-paragraph {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .welcome-button {
+    display: none;
+  }
+
+  .burger-menu {
+    position: absolute;
+    top: 0;
+    left: -200%;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 864px;
+    background: #030303;
+    transition: all 0.3s ease-in;
+  }
+
+  .open {
+    left: 0;
+  }
+
+  .menu-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 35px;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .menu-img-1 {
+    width: 100%;
+  }
+
+  .menu-img-2, .menu-img-3 {
+    width: 50%;
+    max-width: 319px;
+  }
+
+  .welcome-slider-gradient {
+    display: none;
+  }
+
+  .section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .section-title::after {
+    top: 75px;
+  }
+
+  .visiting-container {
+    padding-bottom: 40px;
+  }
+
+  .card-wrapper {
+    justify-content: center;
+    margin-top: 60px;
+    column-gap: 56px;
+    row-gap: 0;
+  }
+
+  .card-image {
+    width: 280px;
+    height: 180px;
+  }
+
+  .card-title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 3px;
+  }
+
+  .card-title::after {
+    top: 36px;
+    width: 54%;
+    height: 2px;
+  }
+
+  .card-additional {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0;
+  }
+
+  .card-source {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0;
+  }
+
+  .explore {
+    padding-bottom: 40px;
+  }
+
+  .explore-info {
+    width: 100%;
+  }
+
+  .explore-text-wrapper {
+    display: none;
+  }
+
+  .explore-img {
+    width: 100%;
+    margin-top: 42px;
+  }
+
+  .video-container {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
+
+  .video-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .videopleer {
+    display: block;
+    width: 728px;
+    height: 329px;
+  }
+
+  .video-button {
+    width: 80px;
+    height: 80px;
+  }
+
+  .control-panel {
+    position: relative;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .progress-big {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .progress-small {
+    width: 486px;
+  }
+
+  .video-slider {
+    margin-top: 20px;
+  }
+
+  .video-slider iframe {
+    width: 354px;
+    height: 199px;
+  }
+
+  .video-slider iframe:last-child {
+    display: none;
+  }
+
+  .slider-circle {
+    width: 10px;
+    height: 10px;
+    margin: 20px 10px 0;
+  }
+
+  .video-arrow-left {
+    margin: 20px 10px 0;
+  }
+
+  .video-arrow-right {
+    margin: 20px 10px 0;
+  }
+
+  .picture-container {
+    padding-top: 40px;
+    height: 1180px;
+  }
+
+  .gallery-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .picture-inner-container {
+    height: 2346px;
+  }
+
+  .gallery-img {
+    width: 352px;
+    max-height: 440px;
+  }
+
+  .tickets-wrapper {
+    margin-top: 63px;
+    margin-bottom: 40px;
+  }
+
+  .tickets-img {
+    width: 444px;
+    height: 340px;
+  }
+
+  .tickets-img img {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .section-title::after {
+    top: 80px;
+  }
+
+  .tickets-amount {
+    margin-right: 49px;
+  }
+
+  .tickets-counter {
+    margin-bottom: 35px;
+  }
+  
+  .total-euro {
+    margin: 0 0 40px;
+  }
+
+  .parallax {
+    height: 300px;
+    background-position: 50%;
+  }
+
+  .contacts-wrapper {
+    flex-direction: column;
+    margin-top: 63px;
+  }
+
+  .contacts-title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  .contacts-details {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0;
+  }
+
+  .contacts-map {
+    width: 100%;
+    height: 476px;
+    margin-top: 40px;
+  }
+
+  .contacts-map img {
+    margin-left: -230px;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+
+  .footer-nav {
+    column-gap: 150px;
+    margin-left: 20px;
+    margin-right: 60px;
+    row-gap: 10px;
+  }
+
+  .footer-nav-link {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .footer-social-list {
+    margin: 27px 0 14px 290px;
+  }
+
+  .footer-info {
+    padding: 25px 0;
+  }
+
+  .form {
+    width: 590px;
+    height: 100%;
+    padding: 75px 30px 40px;
+    overflow: auto;
+  }
+
+  .form-wrapper {
+    flex-direction: column;
+    row-gap: 51px;
+    height: auto;
+  }
+
+  .form-registration {
+    width: 100%;
+  }
+
+  .form-subtitle::after {
+    width: 100%;
+  }
+
+  .modal-form {
+    margin-top: 53px;
+  }
+
+  .modal-wrapper-date {
+    width: 100%;
+  }
+
+  .modal-date {
+    width: 48%;
+  }
+
+  .modal-input-date {
+    width: 100%;
+  }
+
+  .modal-time {
+    width: 48%;
+  }
+
+  .modal-input-time {
+    width: 100%;
+  }
+
+  .modal-wrapper-info {
+    width: 100%;
+  }
+
+  .modal-input {
+    width: 100%;
+  }
+
+  .modal-tickets-count {
+    width: 100%;
+  }
+
+  .modal-tickets-subtitle::after {
+    width: 100%;
+  } 
+
+  .form-confirmation {
+    box-sizing: border-box;
+    padding: 25px 15px;
+    width: 100%;
+    height: 665px;
+  }
+
+  .overview-divider {
+    width: 100%;
+  }
+
+  .card-under-input {
+    padding: 0;
+  }
+
+  .book {
+    right: 15px;
+  }
+}
